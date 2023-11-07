@@ -63,12 +63,14 @@ body {
     font-weight: 600;
     color: #fff;
     text-transform: capitalize;
+    max-width: 480px;
 }
 
 .main .description p {
     color: #fff;
     font-size: 1.8rem;
     margin: 20px auto 45px;
+    max-width: 480px;
 }
 
 .main .description .btn-register {
@@ -81,14 +83,15 @@ body {
 }
 
 .main .description .btn-register:hover {
-    background-color: hsl(300, 69%, 71%);
+    background-color: hsl(325, 89%, 73%);
+    color: #fff;
 }
 
 .footer {
     grid-area: footer;
 }
 
-.footer .social-media {
+.footer .social-media, ul {
     display: flex;
     justify-content: flex-end;
     font-size: 2rem;
